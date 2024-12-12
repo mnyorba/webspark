@@ -1,0 +1,61 @@
+/* WebSpark My Product Plugin Styles */
+
+.woocommerce-add-product,
+.woocommerce-my-products {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.woocommerce-add-product .form-group {
+    margin-bottom: 15px;
+}
+
+.woocommerce-add-product label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.woocommerce-add-product input[type="text"],
+.woocommerce-add-product input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#product_image_preview {
+    max-width: 300px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+
+.woocommerce-my-products table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.woocommerce-my-products th,
+.woocommerce-my-products td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.woocommerce-my-products .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.woocommerce-my-products .actions .button {
+    padding: 5px 10px;
+    background-color: #0073a1;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.woocommerce-my-products .actions .delete-product {
+    background-color: #d63638;
+}
